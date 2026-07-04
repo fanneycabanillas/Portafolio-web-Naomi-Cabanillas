@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Misión fotosíntesis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="reg-mark reg-mark--tl" aria-hidden="true"></div>
+    <div class="reg-mark reg-mark--tr" aria-hidden="true"></div>
+    <div class="reg-mark reg-mark--bl" aria-hidden="true"></div>
+    <div class="reg-mark reg-mark--br" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+        <div class="wrap site-header__inner">
+            <a href="index.html" class="logo-mark">NC<span class="logo-mark__dot">•</span></a>
+            <nav class="main-nav" aria-label="Navegación principal">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+                    <span></span><span></span><span></span>
+                    <span class="sr-only">Abrir menú</span>
+                </button>
+                <ul id="nav-list" class="nav-list">
+                    <li><a href="index.html#trabajo">Trabajo</a></li>
+                    <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="index.html#contacto" class="nav-cta">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+
+        <!-- ============ TÍTULO DEL PROYECTO ============ -->
+        <section class="detail-hero">
+            <div class="wrap detail-hero__inner">
+                <p class="eyebrow mono">P.01 — proyecto multimeida</p>
+                <h1 class="detail-hero__title">Misión fotosíntesis</h1>
+            </div>
+        </section>
+
+        <!-- ============ IMAGEN + DESCRIPCIÓN ============ -->
+        <section class="section" style="border-top:0; padding-top:0;">
+            <div class="wrap">
+                <div class="detail-media">
+
+                    <div class="detail-media__frame">
+                        <img src="imagenes/Galeria piezas del proyecto/LOGO-MISION-FOTOSINTESIS.png">
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+
+                    <div class="detail-media__body">
+                        <h3>Sobre el proyecto</h3>
+                        <p>
+                            En este proyecto desarrollé una experiencia multimedia inmersiva enfocada
+                            en hacer más atractivo el aprendizaje de la botánica para niños de 8 a 12 años.
+                            Diseñé el contenido visual, las animaciones y las interacciones para explicar el
+                            proceso de la fotosíntesis mediante proyecciones 8K y actividades lúdicas, transformando
+                            conceptos científicos complejos en una experiencia clara, dinámica y fácil de comprender.
+                        </p>
+                        <p>
+                            Mi objetivo fue combinar diseño, tecnología e interacción para crear un aprendizaje
+                            más memorable y despertar la curiosidad por la ciencia a través de una experiencia
+                            visual envolvente.
+                        </p>
+                        <br>
+
+                        <dl class="detail-media__specs mono">
+                            <div>
+                                <dt>lugar para el que se realizo</dt>
+                                <dd>Centro de ciencias de Sinaloa</dd>
+                            </div>
+                            <div>
+                                <dt>Año</dt>
+                                <dd>2025</dd>
+                            </div>
+                        </dl>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SEGUNDO TÍTULO + 4 VIDEOS ============ -->
+        <section class="section">
+            <div class="wrap">
+                <header class="section__head">
+                    <p class="eyebrow mono">02 — videos</p>
+                    <h2 class="section__title">Videos principales del proyecto</h2>
+                </header>
+
+                <div class="video-grid">
+
+                    <article class="video-card">
+                        <div class="video-card__frame">
+                            <video controls preload="metadata" poster="imagenes/video-01-poster.jpg">
+                                <source src="imagenes/heliotropismo.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                            </video>
+                        </div>
+                        <div class="video-card__info">
+                            <span class="mono video-card__index">V.01</span>
+                            <h3 class="video-card__title">Heliotropismo</h3>
+                            <p class="video-card__desc">En este video se explico la función y el proceso del
+                                heliotropismo en las plantas.</p>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="video-card__frame">
+                            <video controls preload="metadata" poster="imagenes/video-02-poster.jpg">
+                                <source src="imagenes/especies extraordinarias.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                            </video>
+                        </div>
+                        <div class="video-card__info">
+                            <span class="mono video-card__index">V.02</span>
+                            <h3 class="video-card__title">Especies extraordinarias</h3>
+                            <p class="video-card__desc">En este video se montraron algunas de las especies que no
+                                realizan la fotosíntesis.</p>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="video-card__frame">
+                            <video controls preload="metadata" poster="imagenes/video-02-poster.jpg">
+                                <source src="imagenes/ANIMACIÓN FONDO PISO(1).mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                            </video>
+                        </div>
+                        <div class="video-card__info">
+                            <span class="mono video-card__index">V.03</span>
+                            <h3 class="video-card__title">Animación Piso</h3>
+                            <p class="video-card__desc">Animacion que se utilizo para el piso del interactivo.</p>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="video-card__frame">
+                            <video controls preload="metadata" poster="imagenes/video-03-poster.jpg">
+                                <source src="imagenes/ANIMACIÓN FONDO PARED.mp4" type="video/mp4">
+                                Tu navegador no soporta la reproducción de video.
+                            </video>
+                        </div>
+                        <div class="video-card__info">
+                            <span class="mono video-card__index">V.04</span>
+                            <h3 class="video-card__title">Animación pared</h3>
+                            <p class="video-card__desc">Animacion que se utilizo para el fondo/pared del interactivo.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ GALERÍA DE IMÁGENES — grid 3x2 ============ -->
+        <section class="section">
+            <div class="wrap">
+                <header class="section__head">
+                    <p class="eyebrow mono">03 — GALERÍA</p>
+                    <h2 class="section__title">Piezas clave del proyecto</h2>
+                </header>
+
+                <div class="showcase-grid">
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/fondo del video heliotropismo.jpg"
+                                alt="Pieza del proyecto 1">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Animación pared</h3>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/fondo video especies extraordinarias.png"
+                                alt="Pieza del proyecto 2">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Fondo video especies extraordinarias</h3>
+                        </div>
+
+                    </article>
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/flor fantasma.png"
+                                alt="Pieza del proyecto 3">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Flor fantasma o Monotropa uniflora</h3>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/FLOR CADAVER.png" alt="Pieza del proyecto 4">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Rafflesia arnoldii</h3>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/tetrastigma.png" alt="Pieza del proyecto 4">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Tetrastigma</h3>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/LOGO-MISION-FOTOSINTESIS.png"
+                                alt="Pieza del proyecto 2">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Logo</h3>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/cursor-girasol.gif"
+                                alt="Pieza del proyecto 2">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Cursor girasol ineractivo</h3>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/lupa.png" alt="Pieza del proyecto 2">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Hormona auxina</h3>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="showcase-grid__item">
+                            <img src="imagenes/Galeria piezas del proyecto/girasoles.png" alt="Pieza del proyecto 2">
+                            <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                            <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                        </div>
+                        <div class="video-card__info">
+                            <h3 class="video-card__title">Girasoles</h3>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ GRID MIXTO — 3 videos + 3 imágenes, 3x2 ============ -->
+        <section class="section">
+            <div class="wrap">
+                <header class="section__head">
+                    <p class="eyebrow mono">04 — MOMENTOS</p>
+                    <h2 class="section__title">Fotos y videos de la presentación del proyecto</h2>
+                    <h1>Cubo negro 8k</h1>
+                </header>
+
+                <div class="showcase-grid">
+
+
+                    <div class="showcase-grid__item">
+                        <img src="imagenes/momentos fotos y videos del proceso/imagen muestra 1.jpeg"
+                            alt="Foto del proceso 2">
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+                    <div class="showcase-grid__item">
+                        <img src="imagenes/momentos fotos y videos del proceso/imagen muestra 2.jpeg"
+                            alt="Foto del proceso 3">
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+                    <div class="showcase-grid__item">
+                        <img src="imagenes/momentos fotos y videos del proceso/imagen muestra 3.jpeg"
+                            alt="Foto del proceso 3">
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+                    <div class="showcase-grid__item showcase-grid__item--portrait">
+                        <video controls preload="metadata" poster="imagenes/mixto-video-01-poster.jpg">
+                            <source src="imagenes/momentos fotos y videos del proceso/video muestra (1).mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+                    <div class="showcase-grid__item showcase-grid__item--portrait">
+                        <video controls preload="metadata" poster="imagenes/mixto-video-03-poster.jpg">
+                            <source src="imagenes/momentos fotos y videos del proceso/video muestra (2).mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+                    <div class="showcase-grid__item showcase-grid__item--portrait">
+                        <video controls preload="metadata" poster="imagenes/mixto-video-02-poster.jpg">
+                            <source src="imagenes/momentos fotos y videos del proceso/video muestra (3).mp4"
+                                type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ============ TÍTULO DEL PROYECTO ============ -->
+        <section class="detail-hero">
+            <div class="wrap detail-hero__inner">
+                <p class="eyebrow mono">05 — lugar de presentación del proyecto</p>
+                <h1 class="detail-hero__title">Cubo negro 8K del Cento de Ciencias de Sinaloa</h1>
+            </div>
+        </section>
+
+        <!-- ============ IMAGEN + DESCRIPCIÓN ============ -->
+        <section class="section" style="border-top:0; padding-top:0;">
+            <div class="wrap">
+                <div class="detail-media">
+
+                    <div class="detail-media__frame">
+                        <img src="imagenes/Galeria piezas del proyecto/cubonegro.jpg">
+                        <span class="crop crop--tl"></span><span class="crop crop--tr"></span>
+                        <span class="crop crop--bl"></span><span class="crop crop--br"></span>
+                    </div>
+
+                    <div class="detail-media__body">
+                        <h3>¿Que es?</h3>
+                        <p>
+                            El Cubo Negro 8K del Centro de Ciencias de Sinaloa es un espacio inmersivo e interactivo que
+                            combina ciencia, tecnología y arte para ofrecer experiencias educativas de última
+                            generación. Utiliza un sistema de proyección 8K de ultra alta resolución, formado por ocho
+                            proyectores (cuatro en las paredes y cuatro en el piso), junto con sensores de movimiento
+                            que permiten a los visitantes interactuar con el contenido en tiempo real.
+                        </p>
+                        <p>
+                            Tras su renovación en 2025, el Cubo Negro incorporó tecnología desarrollada específicamente
+                            para el Centro de Ciencias de Sinaloa, lo que permite crear contenidos propios enfocados en
+                            la biodiversidad, la cultura y la identidad de Sinaloa, además de temas de divulgación
+                            científica.
+                        </p>
+                        <dl class="detail-media__specs mono">
+                            <div>
+                                <dt>lugar para el que se realizo el proyecto</dt>
+                                <dd>Centro de ciencias de Sinaloa</dd>
+                            </div>
+                            <div>
+                                <dt>Año</dt>
+                                <dd>2025</dd>
+                            </div>
+                        </dl>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap site-footer__inner mono">
+            <span>© <span id="year"></span>Naomi Cabanillas. Todos los derechos reservados.</span>
+            <span>Portafolio</span>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+
+
+</html>
